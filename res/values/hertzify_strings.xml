@@ -180,4 +180,8 @@
     <!-- Auto-hide page indicator dots -->
     <string name="auto_hide_dots">Auto-hide page indicator</string>
     <string name="auto_hide_dots_summary">Hide the page indicator dots automatically</string>
+
+    <!-- Icon pack -->
+    <string name="icon_pack_title">Icon pack</string>
+    <string name="icon_pack_default_label">Default</string>
 </resources>
