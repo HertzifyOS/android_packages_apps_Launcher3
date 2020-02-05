@@ -95,4 +95,8 @@
     <!-- Search bar -->
     <string name="pref_show_hotseat_qsb_title">Show search bar</string>
     <string name="pref_show_hotseat_qsb_summary">At the bottom of your home screen</string>
+
+    <!-- DT2S -->
+    <string name="pref_sleep_gesture_title">Double tap to sleep</string>
+    <string name="pref_sleep_gesture_summary">Double tap on empty space for screen off</string>
 </resources>
