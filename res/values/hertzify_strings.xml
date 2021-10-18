@@ -142,4 +142,6 @@
     <!-- Top shadow -->
     <string name="show_top_shadow">Top shadow</string>
 
+    <!-- Recents icons -->
+    <string name="recents_lens_title">Lens</string>
 </resources>
