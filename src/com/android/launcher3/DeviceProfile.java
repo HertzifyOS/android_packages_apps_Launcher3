@@ -196,6 +196,10 @@ public class DeviceProfile {
 
     private final Context context;
 
+    // Meminfo in overview
+    public int memInfoMarginGesturePx;
+    public int memInfoMarginThreeButtonPx;
+
     /** Used only as an alternative to mocking when null values cannot be used. */
     @VisibleForTesting
     public DeviceProfile() {
@@ -498,6 +502,11 @@ public class DeviceProfile {
         }
 
         splitPlaceholderInset = res.getDimensionPixelSize(R.dimen.split_placeholder_inset);
+
+        memInfoMarginGesturePx = res.getDimensionPixelSize(
+                R.dimen.meminfo_bottom_margin_gesture);
+        memInfoMarginThreeButtonPx = res.getDimensionPixelSize(
+                R.dimen.meminfo_bottom_margin_three_button);
 
         // We need to use the full window bounds for split determination because on near-square
         // devices, the available bounds (bounds minus insets) may actually be in landscape while
