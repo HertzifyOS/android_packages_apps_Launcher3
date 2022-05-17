@@ -279,7 +279,11 @@ constructor(@ApplicationContext private val encryptedContext: Context) {
         @JvmField val DOCK_SEARCH = backedUpItem("pref_dock_search", true)
         @JvmField val DOCK_SEARCH_PIXEL_STYLE = backedUpItem("pref_dock_search_pixel_style", true)
         @JvmField val DOCK_THEME = backedUpItem("pref_dock_theme", false)
-        @JvmField val DRAWER_OPEN_KEYBOARD = backedUpItem("pref_drawer_open_keyboard", false)
+        @JvmField val DRAWER_OPEN_KEY
+    <!-- Recents style -->
+    <string name="recents_scroll_vibrate_title">Scroll vibration</string>
+>>>>>>> b08f0b6894 (Launcher3: Add toggle to disable scroll vibration):res/values/cr_strings.xml
+BOARD = backedUpItem("pref_drawer_open_keyboard", false)
         @JvmField val DRAWER_SCROLLBAR = backedUpItem("pref_drawer_scrollbar", true)
         @JvmField val FONT_SIZE = backedUpItem("pref_custom_font_size", 100)
         @JvmField val HOTSEAT_OPACITY = backedUpItem("pref_hotseat_opacity", 40)
@@ -294,6 +298,7 @@ constructor(@ApplicationContext private val encryptedContext: Context) {
         @JvmField val RECENTS_OPACITY = backedUpItem("pref_recents_opacity", 40)
         @JvmField val RECENTS_MEMINFO = backedUpItem("pref_recents_meminfo", false)
         @JvmField val RECENTS_MEMINFO_ZRAM = backedUpItem("pref_recents_meminfo_zram", false)
+        @JvmField val RECENTS_SCROLL_VIBRATE = backedUpItem("pref_recents_scroll_vibrate", true)
         @JvmField val ROW_HEIGHT = backedUpItem("pref_row_height", 100)
         @JvmField val SEARCH_RADIUS_SIZE = backedUpItem("pref_search_radius_size", 100)
         @JvmField val SERAPHIX_HOLDER_ID = backedUpItem("pref_seraphix_holder_id", -1)
