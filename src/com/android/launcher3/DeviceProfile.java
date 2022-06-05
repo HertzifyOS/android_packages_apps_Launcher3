@@ -121,6 +121,7 @@ public class DeviceProfile {
     private FolderProfile mFolderProfile;
     private AllAppsProfile mAllAppsProfile;
     private final OverviewProfile overviewProfile;
+    private final boolean mAllAppsIconText;
     private final float mAllAppsCellHeightMultiplier;
 
     // Hotseat
@@ -195,6 +196,7 @@ public class DeviceProfile {
         mAllAppsProfile = new AllAppsProfile(new Point(0, 0), 0, 0, 0f, 0, 0, 0, 0, 0, 0,
                 new Rect(), 0, 0);
         mAllAppsCellHeightMultiplier = 1f;
+        mAllAppsIconText = true;
         mSysuiProfile = new SysuiProfile(0, 0, false);
     }
 
@@ -238,6 +240,7 @@ public class DeviceProfile {
         final Resources res = context.getResources();
 
         mAllAppsCellHeightMultiplier = LauncherPrefs.ROW_HEIGHT.get(context) / 100f;
+        mAllAppsIconText = LauncherPrefs.SHOW_DRAWER_LABELS.get(context);
 
         overviewProfile = OverviewProfile.Factory.createOverviewProfile(res);
 
@@ -422,7 +425,21 @@ public class DeviceProfile {
             hideWorkspaceLabelsIfNotEnoughSpace();
         }
 
+        if (!mAllAppsIconText) {
+            int leftRightPadding =
+                    getWorkspaceProfile().getDesiredWorkspaceHorizontalMarginPx();
+            int drawerWidth =
+                    mDeviceProperties.getAvailableWidthPx() - leftRightPadding * 2;
+            int cellWidth =
+                    drawerWidth / mAllAppsProfile.getNumShownAllAppsColumns();
+            int cellHeight =
+                    (int) (cellWidth * mAllAppsCellHeightMultiplier);
+
+            mAllAppsProfile = getAllAppsProfile().copyWithCellHeightPx(cellHeight);
+        }
+
         if (LauncherPrefs.ENABLE_TWOLINE_ALLAPPS_TOGGLE.get(context)
+                && mAllAppsIconText
                 && !(mIsResponsiveGrid && getAllAppsProfile().getMaxAllAppsTextLineCount() == 2)) {
             // Add extra textHeight to the existing allAppsCellHeight.
             mAllAppsProfile = getAllAppsProfile().copyWithCellHeightPx(
