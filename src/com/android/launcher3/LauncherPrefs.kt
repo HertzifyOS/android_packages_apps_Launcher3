@@ -271,6 +271,7 @@ constructor(@ApplicationContext private val encryptedContext: Context) {
         @JvmField val ICON_SIZE = backedUpItem("pref_custom_icon_size", 100)
         @JvmField val ROW_HEIGHT = backedUpItem("pref_row_height", 100)
         @JvmField val DRAWER_SEARCH = backedUpItem("pref_drawer_search", true)
+        @JvmField val ALLOW_WALLPAPER_ZOOMING = backedUpItem("pref_allow_wallpaper_zooming", true)
         @JvmField
         val PROMISE_ICON_IDS = nonRestorableItem(InstallSessionHelper.PROMISE_ICON_IDS, "")
         @JvmField val WORK_EDU_STEP = backedUpItem("showed_work_profile_edu", 0)
