@@ -42,6 +42,11 @@ public interface SearchUiManager {
     boolean isSearchQueryEmpty();
 
     /**
+     * Notifies the search manager to focus search field and open keyboard.
+     */
+    void focusSearchField();
+    
+    /**
      * Called before dispatching a key event, in case the search manager wants to initialize
      * some UI beforehand.
      */
