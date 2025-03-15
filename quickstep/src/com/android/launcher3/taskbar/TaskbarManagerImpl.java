@@ -138,6 +138,9 @@ public class TaskbarManagerImpl {
     private static final Uri NAV_BAR_KIDS_MODE = Settings.Secure.getUriFor(
             Settings.Secure.NAV_BAR_KIDS_MODE);
 
+    public static final Uri NAVIGATION_BAR_HINT_URI = Settings.System.getUriFor(
+            Settings.System.NAVIGATION_BAR_HINT);
+
     private final Context mBaseContext;
     private final int mPrimaryDisplayId;
     private final TaskbarNavButtonCallbacks mNavCallbacks;
@@ -345,6 +348,11 @@ public class TaskbarManagerImpl {
                 v -> onSettingChanged(v, TaskbarActivityContext::isInKidsMode));
         cleanupTasks.addCloseable(getTaskbarUiThread(), navBarKidsModeSafeCloseable);
 
+        var enableNavbarHintSafeCloseable = settingsCache.getListenableRef(NAVIGATION_BAR_HINT_URI)
+                .forEach(getTaskbarUiThread(),
+                        v -> onSettingChanged(v, TaskbarActivityContext::isNavbarHintEnabled));
+        cleanupTasks.addCloseable(getTaskbarUiThread(), enableNavbarHintSafeCloseable);
+        
         SimpleBroadcastReceiver shutdownReceiver = new SimpleBroadcastReceiver(
                 mBaseContext,
                 UI_HELPER_EXECUTOR,
