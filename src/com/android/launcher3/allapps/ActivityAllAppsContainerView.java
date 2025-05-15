@@ -44,6 +44,7 @@ import android.graphics.Rect;
 import android.graphics.RectF;
 import android.os.Bundle;
 import android.os.Parcelable;
+import android.os.UserManager;
 import android.os.Process;
 import android.util.AttributeSet;
 import android.util.Log;
@@ -135,8 +136,7 @@ public class ActivityAllAppsContainerView<T extends Context & ActivityContext>
     protected final Context mContext;
     protected final T mActivityContext;
     protected final List<AdapterHolder> mAH;
-    protected final Predicate<ItemInfo> mPersonalMatcher = ItemInfoMatcher.ofUser(
-            Process.myUserHandle());
+    protected final Predicate<ItemInfo> mPersonalMatcher;
     protected WorkProfileManager mWorkManager;
     protected final PrivateProfileManager mPrivateProfileManager;
     protected final Point mFastScrollerOffset = new Point();
@@ -206,6 +206,8 @@ public class ActivityAllAppsContainerView<T extends Context & ActivityContext>
         mContext = context;
         mActivityContext = ActivityContext.lookupContext(context);
         mAllAppsStore = mActivityContext.getActivityComponent().getAppsStore();
+        UserManager userManager = mActivityContext.getSystemService(UserManager.class);
+        mPersonalMatcher = ItemInfoMatcher.ofCurrentOrDualUser(userManager, Process.myUserHandle());
 
         mHeaderThreshold = getResources().getDimensionPixelSize(
                 R.dimen.dynamic_grid_cell_border_spacing);
