@@ -504,4 +504,11 @@
     <string name="meminfo_text">%1$s available | %2$s</string>
     <string name="recents_meminfo_title">Memory info</string>
     <string name="recents_meminfo_zram_title">ZRAM info</string>
+
+    <!-- Recents style -->
+    <string name="recents_style_title">Recents layout style</string>
+    <string name="recents_style_stock">Stock</string>
+    <string name="recents_style_staple">Kami Style</string>
+    <string name="recents_style_ios">iOS Style</string>
+    <string name="recents_style_oxygen">OxygenOS Style</string>
 </resources>
