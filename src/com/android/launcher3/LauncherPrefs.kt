@@ -272,6 +272,7 @@ constructor(@ApplicationContext private val encryptedContext: Context) {
         @JvmField val ROW_HEIGHT = backedUpItem("pref_row_height", 100)
         @JvmField val DRAWER_SEARCH = backedUpItem("pref_drawer_search", true)
         @JvmField val ALLOW_WALLPAPER_ZOOMING = backedUpItem("pref_allow_wallpaper_zooming", true)
+        @JvmField val RECENTS_CHIPS = backedUpItem("pref_recents_chips", false)
         @JvmField val RECENTS_CLEAR_ALL = backedUpItem("pref_recents_clear_all", true)
         @JvmField val RECENTS_LENS = backedUpItem("pref_recents_lens", false)
         @JvmField val RECENTS_SCREENSHOT = backedUpItem("pref_recents_screenshot", true)
