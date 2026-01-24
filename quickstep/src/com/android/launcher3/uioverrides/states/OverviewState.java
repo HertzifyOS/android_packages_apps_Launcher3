@@ -139,7 +139,7 @@ public class OverviewState extends LauncherState {
         if (launcherUiState.isSplitSelectActiveRef().getValue()) {
             elements &= ~CLEAR_ALL_BUTTON & ~ADD_DESK_BUTTON;
         }
-        if (LauncherPrefs.RECENTS_MEMINFO.get(launcher)) {
+        if (LauncherPrefs.RECENTS_MEMINFO.get(dp.getContext())) {
             elements |= MEMINFO;
         }
         return elements;
