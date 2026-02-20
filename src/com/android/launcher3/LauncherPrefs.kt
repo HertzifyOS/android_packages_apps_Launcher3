@@ -274,7 +274,11 @@ constructor(@ApplicationContext private val encryptedContext: Context) {
                 DefaultsValueProvider.get(context).enableTwoLineToggle
             }
 
-        @JvmField val ALLAPPS_THEMED_ICONS = backedUpItem("pref_allapps_themed_icons", false)
+        @JvmField val ALLAPPS_THEMED_ICONS = backedUpItem("pref_allapps_themed_icons", true)
+        @JvmField val ALLAPPS_ICON_CUSTOMIZATION =
+            backedUpItem("pref_allapps_icon_customization", Boolean::class.java) {
+                ALLAPPS_THEMED_ICONS.get(it)
+            }
         @JvmField val WORKSPACE_LOCK = backedUpItem("pref_workspace_lock", false)
         @JvmField val SHOW_DESKTOP_LABELS = backedUpItem("pref_desktop_show_labels", true)
         @JvmField val SHOW_DRAWER_LABELS = backedUpItem("pref_drawer_show_labels", true)
