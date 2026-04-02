@@ -63,10 +63,10 @@
     <string name="restarting_launcher_changes">Đang khởi động lại trình khởi chạy để áp dụng thay đổi...</string>
     <string name="updating_launcher_components">Đang khởi động lại trình khởi chạy để cập nhật các thành phần...</string>
     <!-- DT2S -->
-    <string name="pref_sleep_gesture_title">Double tap to sleep</string>
-    <string name="pref_sleep_gesture_summary">Double tap empty space on home screen to turn off the screen</string>
-    <string name="pref_sleep_gesture_haptic_title">Vibrate on double tap to sleep</string>
-    <string name="pref_sleep_gesture_haptic_summary">Provide haptic feedback on double tap to sleep gesture</string>
+    <string name="pref_sleep_gesture_title">Nhấn hai lần để tắt màn hình</string>
+    <string name="pref_sleep_gesture_summary">Nhấn hai lần vào khoảng trống trên màn hình chính để tắt màn hình</string>
+    <string name="pref_sleep_gesture_haptic_title">Rung khi nhấn hai lần để tắt màn hình</string>
+    <string name="pref_sleep_gesture_haptic_summary">Cung cấp phản hồi rung khi nhấn hai lần để tắt màn hình</string>
     <!-- Open keyboard -->
     <string name="drawer_open_keyboard_title">Vuốt để bắt đầu tìm kiếm</string>
     <string name="drawer_open_keyboard_summary">Mở bàn phím bất cứ khi nào ngăn kéo ứng dụng hiển thị</string>
@@ -183,7 +183,7 @@
     <string name="drawer_style_list">Kiểu danh sách</string>
     <string name="drawer_style_oneui">Giao diện kiểu OneUI (phân trang)</string>
     <!-- App drawer sorting -->
-    <string name="app_drawer_sort_mode_title">App drawer sorting</string>
+    <string name="app_drawer_sort_mode_title">Sắp xếp ngăn ứng dụng</string>
     <string name="app_drawer_sort_alphabetical">Sắp xếp theo bảng chữ cái</string>
     <string name="app_drawer_sort_install_date">Sắp xếp theo ngày cài đặt</string>
     <string name="app_drawer_sort_usage">Sắp xếp theo mức độ sử dụng</string>
@@ -209,6 +209,6 @@
     <!-- Message shown when all home screen views are removed -->
     <string name="home_screen_all_views_removed_msg">Đã xóa toàn bộ màn hình chính</string>
     <!-- Pixel style search bar -->
-    <string name="dock_search_pixel_style_title">Pixel style search bar</string>
-    <string name="dock_search_pixel_style_summary">Revamped search bar with layered background</string>
+    <string name="dock_search_pixel_style_title">Thanh tìm kiếm kiểu Pixel</string>
+    <string name="dock_search_pixel_style_summary">Thanh tìm kiếm được làm mới với hiệu ứng nền</string>
 </resources>
