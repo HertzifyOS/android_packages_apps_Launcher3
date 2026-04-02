@@ -63,10 +63,10 @@
     <string name="restarting_launcher_changes">Restarting launcher to apply changes...</string>
     <string name="updating_launcher_components">Restarting launcher to update launcher components...</string>
     <!-- DT2S -->
-    <string name="pref_sleep_gesture_title">Tap to sleep</string>
-    <string name="pref_sleep_gesture_summary">Double-tap an empty area in the home screen to turn off the display</string>
-    <string name="pref_sleep_gesture_haptic_title">Vibrate on tap to sleep</string>
-    <string name="pref_sleep_gesture_haptic_summary">Provide haptic feedback on double-tap to sleep gesture</string>
+    <string name="pref_sleep_gesture_title">Double tap to sleep</string>
+    <string name="pref_sleep_gesture_summary">Double tap empty space on home screen to turn off the screen</string>
+    <string name="pref_sleep_gesture_haptic_title">Vibrate on double tap to sleep</string>
+    <string name="pref_sleep_gesture_haptic_summary">Provide haptic feedback on double tap to sleep gesture</string>
     <!-- Open keyboard -->
     <string name="drawer_open_keyboard_title">Swipe to start search</string>
     <string name="drawer_open_keyboard_summary">Open keyboard whenever app drawer becomes visible</string>
@@ -183,6 +183,7 @@
     <string name="drawer_style_list">List style</string>
     <string name="drawer_style_oneui">OneUI style (paged)</string>
     <!-- App drawer sorting -->
+    <string name="app_drawer_sort_mode_title">App drawer sorting</string>
     <string name="app_drawer_sort_alphabetical">Sort alphabetically</string>
     <string name="app_drawer_sort_install_date">Sort by install date</string>
     <string name="app_drawer_sort_usage">Sort by usage</string>
@@ -207,4 +208,7 @@
     <string name="remove_all_views_from_home_screen_desc">Home screen will be cleared. Do you want to continue?</string>
     <!-- Message shown when all home screen views are removed -->
     <string name="home_screen_all_views_removed_msg">Home screen cleared</string>
+    <!-- Pixel style search bar -->
+    <string name="dock_search_pixel_style_title">Pixel style search bar</string>
+    <string name="dock_search_pixel_style_summary">Revamped search bar with layered background</string>
 </resources>
