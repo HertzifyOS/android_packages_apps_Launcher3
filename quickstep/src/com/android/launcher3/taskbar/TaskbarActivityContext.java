@@ -292,6 +292,7 @@ public class TaskbarActivityContext extends BaseTaskbarContext {
     private final boolean mIsSafeModeEnabled;
     private final boolean mIsUserSetupComplete;
     private final boolean mIsNavBarKidsMode;
+    private final boolean mIsNavbarHintEnabled;
     
     private boolean mIsDestroyed = false;
 
