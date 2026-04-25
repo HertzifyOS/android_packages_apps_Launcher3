@@ -91,7 +91,7 @@
     <string name="recents_app_killed">Đã buộc đóng ứng dụng</string>
     <!-- Hotseat searchbar -->
     <string name="label_search">Tìm kiếm</string>
-    <string name="label_lens">Google Lens</string>
+    <string name="label_lens">Google Ống kính</string>
     <string name="label_voice_search">Tìm kiếm bằng giọng nói</string>
     <string name="label_gemini_search">Chế độ AI</string>
     <string name="dock_music_search_title">Tìm kiếm nhạc</string>
@@ -119,7 +119,7 @@
     <!-- Recents icons -->
     <string name="recents_screenshot_title">Chụp màn hình</string>
     <string name="recents_clear_all_title">Xóa tất cả</string>
-    <string name="recents_lens_title">Lens</string>
+    <string name="recents_lens_title">Ống kính</string>
     <!-- Parallax -->
     <string name="short_parallax_title">Cho phép parallax ngắn</string>
     <string name="short_parallax_summary">Bật hiệu ứng cuộn hình nền đầy đủ trên số lượng trang nhỏ hơn thay vì cắt hình nền</string>
@@ -159,7 +159,7 @@
     <string name="pebble_shape_title">Pebble</string>
     <string name="vessel_shape_title">Vessel</string>
     <string name="pure_square_shape_title">Vuông thuần túy</string>
-    <string name="squircle_shape_title">Squircle</string>
+    <string name="squircle_shape_title">Hình vuông bo tròn</string>
     <string name="tapered_rect_shape_title">Hình chữ nhật thuôn</string>
     <string name="teardrop_shape_title">Giọt nước</string>
     <string name="rounded_rect_shape_title">Hình chữ nhật bo tròn</string>
@@ -168,11 +168,11 @@
     <string name="flower_shape_title">Hoa</string>
     <string name="heart_shape_title">Trái tim</string>
     <string name="hexagon_shape_title">Lục giác</string>
+    <string name="rounded_hexagon_shape_title">Hình lục giác tròn</string>
     <string name="ios_style_shape_title">Kiểu iOS</string>
     <string name="leaf_shape_title">Lá cây</string>
     <string name="meow_shape_title">Meow</string>
     <string name="samsung_style_shape_title">Kiểu Samsung</string>
-    <string name="scroll_shape_title">Cuộn</string>
     <string name="stretched_shape_title">Kéo dài</string>
     <!-- Dark app drawer text -->
     <string name="all_apps_dark_text_title">Nhãn ứng dụng tối</string>
@@ -405,4 +405,7 @@ Gửi cho chúng tôi một cốc bia</item>
     <string name="quick_event_weather_city_summary">Hiển thị vị trí thời tiết hiện tại</string>
     <string name="quick_event_weather_text_title">Tình trạng hiện tại</string>
     <string name="quick_event_weather_text_summary">Hiển thị tóm tắt tình trạng thời tiết hiện tại</string>
+    <!-- Background blur -->
+    <string name="background_blur_title">Độ sâu nền mờ</string>
+    <string name="background_blur_summary">Thiết lập độ mờ của hình nền cho ứng dụng gần đây và ngăn chứa ứng dụng</string>
 </resources>
