@@ -212,6 +212,7 @@
     <!-- Pixel style search bar -->
     <string name="dock_search_pixel_style_title">Pixel style search bar</string>
     <string name="dock_search_pixel_style_summary">Revamped search bar with layered background</string>
+    <string name="qsb_outer_opacity_title">Outer layer opacity</string>
     <!-- QuickSpace -->
     <string name="show_quickspace_title">At A Glance</string>
     <string name="show_quickspace_summary">Show at the top of your home screen</string>
@@ -233,6 +234,13 @@
     <!-- Quickspace alternative view -->
     <string name="quickspace_alternate_style_title">Extended style</string>
     <string name="quickspace_alternate_style_summary">Switch to extended style</string>
+    <!-- Quickspace new style -->
+    <string name="quickspace_style_title">At A Glance style</string>
+    <string-array name="quickspace_style_entries">
+        <item>Default</item>
+        <item>Extended</item>
+        <item>OOS Clock</item>
+    </string-array>
     <!-- Quickspace PSA - Custom messages for the glance -->
     <string name="quickspace_psa_title">Random messages</string>
     <string name="quickspace_psa_summary">Make your companion more lively with random messages</string>
