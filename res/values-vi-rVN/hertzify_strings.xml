@@ -212,7 +212,7 @@
     <!-- Pixel style search bar -->
     <string name="dock_search_pixel_style_title">Thanh tìm kiếm kiểu Pixel</string>
     <string name="dock_search_pixel_style_summary">Thanh tìm kiếm được làm mới với hiệu ứng nền</string>
-    <string name="qsb_outer_opacity_title">Outer layer opacity</string>
+    <string name="qsb_outer_opacity_title">Độ mờ nền ngoài</string>
     <!-- QuickSpace -->
     <string name="show_quickspace_title">Xem nhanh</string>
     <string name="show_quickspace_summary">Hiển thị trên đầu màn hình chính</string>
@@ -235,11 +235,11 @@
     <string name="quickspace_alternate_style_title">Phong cách tối giản</string>
     <string name="quickspace_alternate_style_summary">Chuyển sang phong cách hiện đại</string>
     <!-- Quickspace new style -->
-    <string name="quickspace_style_title">At A Glance style</string>
+    <string name="quickspace_style_title">Kiểu Xem nhanh</string>
     <string-array name="quickspace_style_entries">
-        <item>Default</item>
-        <item>Extended</item>
-        <item>OOS Clock</item>
+        <item>Mặc định</item>
+        <item>Hiện đại</item>
+        <item>OOS</item>
     </string-array>
     <!-- Quickspace PSA - Custom messages for the glance -->
     <string name="quickspace_psa_title">Tin nhắn ngẫu nhiên</string>
