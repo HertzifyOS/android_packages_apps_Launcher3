@@ -120,6 +120,12 @@
     <string name="recents_screenshot_title">Chụp màn hình</string>
     <string name="recents_clear_all_title">Xóa tất cả</string>
     <string name="recents_lens_title">Ống kính</string>
+    <!-- Freeform gesture -->
+    <string name="freeform_gesture_title">Use gesture in recents to start freeform mode</string>
+    <string name="freeform_gesture_summary">Swipe up from the app and release at the top of the recents screen to trigger freeform mode</string>
+    <string name="freeform_gesture_progress_title">Freeform swipe threshold</string>
+    <string name="freeform_gesture_progress_summary">Lower values trigger freeform earlier, higher values require swiping closer to the top</string>
+    <string name="freeform_gesture_threshold_reached">Release to launch floating window</string>
     <!-- Parallax -->
     <string name="short_parallax_title">Cho phép parallax ngắn</string>
     <string name="short_parallax_summary">Bật hiệu ứng cuộn hình nền đầy đủ trên số lượng trang nhỏ hơn thay vì cắt hình nền</string>
@@ -416,4 +422,13 @@ Gửi cho chúng tôi một cốc bia</item>
     <!-- Background blur -->
     <string name="background_blur_title">Độ sâu nền mờ</string>
     <string name="background_blur_summary">Thiết lập độ mờ của hình nền cho ứng dụng gần đây và ngăn chứa ứng dụng</string>
+    <!-- Trust apps -->
+    <string name="trust_apps_manager_name">Hidden &amp; Protected apps</string>
+    <string name="trust_apps_auth_manager">Unlock to manage the hidden and protected apps</string>
+    <string name="trust_apps_auth_open_app">Authenticate to open %1$s</string>
+    <string name="trust_apps_loading">Loading\u2026</string>
+    <string name="trust_apps_no_lock_error">Please set up a secure lock screen to restrict app access</string>
+    <string name="trust_apps_help">Help</string>
+    <string name="trust_apps_info_hidden">Hidden apps and their widgets are hidden from the drawer</string>
+    <string name="trust_apps_info_protected">Protected apps require authentication to be opened from the launcher</string>
 </resources>
