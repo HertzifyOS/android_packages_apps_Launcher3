@@ -120,6 +120,12 @@
     <string name="recents_screenshot_title">Chụp màn hình</string>
     <string name="recents_clear_all_title">Xóa tất cả</string>
     <string name="recents_lens_title">Ống kính</string>
+    <!-- Freeform gesture -->
+    <string name="freeform_gesture_title">Use gesture in recents to start freeform mode</string>
+    <string name="freeform_gesture_summary">Swipe up from the app and release at the top of the recents screen to trigger freeform mode</string>
+    <string name="freeform_gesture_progress_title">Freeform swipe threshold</string>
+    <string name="freeform_gesture_progress_summary">Lower values trigger freeform earlier, higher values require swiping closer to the top</string>
+    <string name="freeform_gesture_threshold_reached">Release to launch floating window</string>
     <!-- Parallax -->
     <string name="short_parallax_title">Cho phép parallax ngắn</string>
     <string name="short_parallax_summary">Bật hiệu ứng cuộn hình nền đầy đủ trên số lượng trang nhỏ hơn thay vì cắt hình nền</string>
@@ -212,6 +218,7 @@
     <!-- Pixel style search bar -->
     <string name="dock_search_pixel_style_title">Thanh tìm kiếm kiểu Pixel</string>
     <string name="dock_search_pixel_style_summary">Thanh tìm kiếm được làm mới với hiệu ứng nền</string>
+    <string name="qsb_outer_opacity_title">Độ mờ nền ngoài</string>
     <!-- QuickSpace -->
     <string name="show_quickspace_title">Xem nhanh</string>
     <string name="show_quickspace_summary">Hiển thị trên đầu màn hình chính</string>
@@ -233,6 +240,13 @@
     <!-- Quickspace alternative view -->
     <string name="quickspace_alternate_style_title">Phong cách tối giản</string>
     <string name="quickspace_alternate_style_summary">Chuyển sang phong cách hiện đại</string>
+    <!-- Quickspace new style -->
+    <string name="quickspace_style_title">Kiểu Xem nhanh</string>
+    <string-array name="quickspace_style_entries">
+        <item>Mặc định</item>
+        <item>Hiện đại</item>
+        <item>OOS</item>
+    </string-array>
     <!-- Quickspace PSA - Custom messages for the glance -->
     <string name="quickspace_psa_title">Tin nhắn ngẫu nhiên</string>
     <string name="quickspace_psa_summary">Làm cho người đồng hành trở nên sinh động hơn với những tin nhắn ngẫu nhiên</string>
@@ -408,4 +422,13 @@ Gửi cho chúng tôi một cốc bia</item>
     <!-- Background blur -->
     <string name="background_blur_title">Độ sâu nền mờ</string>
     <string name="background_blur_summary">Thiết lập độ mờ của hình nền cho ứng dụng gần đây và ngăn chứa ứng dụng</string>
+    <!-- Trust apps -->
+    <string name="trust_apps_manager_name">Ẩn &amp; Bảo mật ứng dụng</string>
+    <string name="trust_apps_auth_manager">Mở khóa để quản lý các ứng dụng đã được ẩn và bảo vệ</string>
+    <string name="trust_apps_auth_open_app">Xác thực để mở %1$s</string>
+    <string name="trust_apps_loading">Đang tải\u2026</string>
+    <string name="trust_apps_no_lock_error">Vui lòng thiết lập một loại khóa màn hình để hạn chế quyền truy cập ứng dụng</string>
+    <string name="trust_apps_help">Trợ giúp</string>
+    <string name="trust_apps_info_hidden">Ứng dụng cùng với tiện ích sẽ bị ẩn khỏi ngăn chứa ứng dụng</string>
+    <string name="trust_apps_info_protected">Các ứng dụng được bảo vệ yêu cầu xác thực để có thể truy cập từ trình khởi chạy</string>
 </resources>
