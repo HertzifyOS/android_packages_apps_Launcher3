@@ -121,11 +121,6 @@
     <string name="recents_clear_all_title">Xóa tất cả</string>
     <string name="recents_lens_title">Ống kính</string>
     <!-- Freeform gesture -->
-    <string name="freeform_gesture_title">Use gesture in recents to start freeform mode</string>
-    <string name="freeform_gesture_summary">Swipe up from the app and release at the top of the recents screen to trigger freeform mode</string>
-    <string name="freeform_gesture_progress_title">Freeform swipe threshold</string>
-    <string name="freeform_gesture_progress_summary">Lower values trigger freeform earlier, higher values require swiping closer to the top</string>
-    <string name="freeform_gesture_threshold_reached">Release to launch floating window</string>
     <!-- Parallax -->
     <string name="short_parallax_title">Cho phép parallax ngắn</string>
     <string name="short_parallax_summary">Bật hiệu ứng cuộn hình nền đầy đủ trên số lượng trang nhỏ hơn thay vì cắt hình nền</string>
