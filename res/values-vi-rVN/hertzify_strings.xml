@@ -120,7 +120,6 @@
     <string name="recents_screenshot_title">Chụp màn hình</string>
     <string name="recents_clear_all_title">Xóa tất cả</string>
     <string name="recents_lens_title">Ống kính</string>
-    <!-- Freeform gesture -->
     <!-- Parallax -->
     <string name="short_parallax_title">Cho phép parallax ngắn</string>
     <string name="short_parallax_summary">Bật hiệu ứng cuộn hình nền đầy đủ trên số lượng trang nhỏ hơn thay vì cắt hình nền</string>
@@ -426,4 +425,22 @@ Gửi cho chúng tôi một cốc bia</item>
     <string name="trust_apps_help">Trợ giúp</string>
     <string name="trust_apps_info_hidden">Ứng dụng cùng với tiện ích sẽ bị ẩn khỏi ngăn chứa ứng dụng</string>
     <string name="trust_apps_info_protected">Các ứng dụng được bảo vệ yêu cầu xác thực để có thể truy cập từ trình khởi chạy</string>
+    <!-- Pause apps shortcut -->
+    <string name="pause">Pause</string>
+    <string name="pause_apps_dialog_title">Pause %1$s?</string>
+    <string name="pause_apps_dialog_message">Notifications for %1$s will be paused</string>
+    <string name="paused_apps_dialog_title">App paused</string>
+    <string name="paused_apps_dialog_message">%1$s was directly paused from the launcher</string>
+    <string name="paused_apps_drop_target_label">Pause app</string>
+    <!-- Memory info -->
+    <string name="meminfo_text">%1$s available | %2$s</string>
+    <string name="recents_meminfo_title">Memory info</string>
+    <string name="recents_meminfo_zram_title">ZRAM info</string>
+    <!-- Recents style -->
+    <string name="recents_style_title">Recents layout style</string>
+    <string name="recents_style_default">Default</string>
+    <string name="recents_style_stock">Scale effect</string>
+    <string name="recents_style_staple">Kami style</string>
+    <string name="recents_style_ios">iOS style</string>
+    <string name="recents_style_oxygen">OxygenOS style</string>
 </resources>
