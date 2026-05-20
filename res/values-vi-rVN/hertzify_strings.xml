@@ -120,12 +120,6 @@
     <string name="recents_screenshot_title">Chụp màn hình</string>
     <string name="recents_clear_all_title">Xóa tất cả</string>
     <string name="recents_lens_title">Ống kính</string>
-    <!-- Freeform gesture -->
-    <string name="freeform_gesture_title">Use gesture in recents to start freeform mode</string>
-    <string name="freeform_gesture_summary">Swipe up from the app and release at the top of the recents screen to trigger freeform mode</string>
-    <string name="freeform_gesture_progress_title">Freeform swipe threshold</string>
-    <string name="freeform_gesture_progress_summary">Lower values trigger freeform earlier, higher values require swiping closer to the top</string>
-    <string name="freeform_gesture_threshold_reached">Release to launch floating window</string>
     <!-- Parallax -->
     <string name="short_parallax_title">Cho phép parallax ngắn</string>
     <string name="short_parallax_summary">Bật hiệu ứng cuộn hình nền đầy đủ trên số lượng trang nhỏ hơn thay vì cắt hình nền</string>
@@ -431,4 +425,22 @@ Gửi cho chúng tôi một cốc bia</item>
     <string name="trust_apps_help">Trợ giúp</string>
     <string name="trust_apps_info_hidden">Ứng dụng cùng với tiện ích sẽ bị ẩn khỏi ngăn chứa ứng dụng</string>
     <string name="trust_apps_info_protected">Các ứng dụng được bảo vệ yêu cầu xác thực để có thể truy cập từ trình khởi chạy</string>
+    <!-- Pause apps shortcut -->
+    <string name="pause">Tạm dừng</string>
+    <string name="pause_apps_dialog_title">Tạm dừng %1$s?</string>
+    <string name="pause_apps_dialog_message">Thông báo cho %1$s sẽ bị tạm dừng</string>
+    <string name="paused_apps_dialog_title">Ứng dụng đã bị tạm dừng</string>
+    <string name="paused_apps_dialog_message">%1$s đã bị tạm dừng trực tiếp từ trình khởi chạy</string>
+    <string name="paused_apps_drop_target_label">Tạm dừng ứng dụng</string>
+    <!-- Memory info -->
+    <string name="meminfo_text">%1$s có sẵn | %2$s</string>
+    <string name="recents_meminfo_title">Tình trạng bộ nhớ</string>
+    <string name="recents_meminfo_zram_title">Hiện bộ nhớ mở rộng</string>
+    <!-- Recents style -->
+    <string name="recents_style_title">Kiểu bố cục ứng dụng gần đây</string>
+    <string name="recents_style_default">Mặc định</string>
+    <string name="recents_style_stock">Hiệu ứng thu phóng</string>
+    <string name="recents_style_staple">Kiểu Kami</string>
+    <string name="recents_style_ios">Kiểu iOS</string>
+    <string name="recents_style_oxygen">Kiểu OxygenOS</string>
 </resources>
