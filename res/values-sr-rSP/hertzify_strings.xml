@@ -120,12 +120,6 @@
     <string name="recents_screenshot_title">Screenshot</string>
     <string name="recents_clear_all_title">Clear all</string>
     <string name="recents_lens_title">Lens</string>
-    <!-- Freeform gesture -->
-    <string name="freeform_gesture_title">Use gesture in recents to start freeform mode</string>
-    <string name="freeform_gesture_summary">Swipe up from the app and release at the top of the recents screen to trigger freeform mode</string>
-    <string name="freeform_gesture_progress_title">Freeform swipe threshold</string>
-    <string name="freeform_gesture_progress_summary">Lower values trigger freeform earlier, higher values require swiping closer to the top</string>
-    <string name="freeform_gesture_threshold_reached">Release to launch floating window</string>
     <!-- Parallax -->
     <string name="short_parallax_title">Allow short parallax</string>
     <string name="short_parallax_summary">Enable full wallpaper scroll effect on smaller numbers of pages instead of cropping the wallpaper</string>
@@ -430,4 +424,22 @@
     <string name="trust_apps_help">Help</string>
     <string name="trust_apps_info_hidden">Hidden apps and their widgets are hidden from the drawer</string>
     <string name="trust_apps_info_protected">Protected apps require authentication to be opened from the launcher</string>
+    <!-- Pause apps shortcut -->
+    <string name="pause">Pause</string>
+    <string name="pause_apps_dialog_title">Pause %1$s?</string>
+    <string name="pause_apps_dialog_message">Notifications for %1$s will be paused</string>
+    <string name="paused_apps_dialog_title">App paused</string>
+    <string name="paused_apps_dialog_message">%1$s was directly paused from the launcher</string>
+    <string name="paused_apps_drop_target_label">Pause app</string>
+    <!-- Memory info -->
+    <string name="meminfo_text">%1$s available | %2$s</string>
+    <string name="recents_meminfo_title">Memory info</string>
+    <string name="recents_meminfo_zram_title">ZRAM info</string>
+    <!-- Recents style -->
+    <string name="recents_style_title">Recents layout style</string>
+    <string name="recents_style_default">Default</string>
+    <string name="recents_style_stock">Scale effect</string>
+    <string name="recents_style_staple">Kami style</string>
+    <string name="recents_style_ios">iOS style</string>
+    <string name="recents_style_oxygen">OxygenOS style</string>
 </resources>
