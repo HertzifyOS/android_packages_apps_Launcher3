@@ -3180,7 +3180,7 @@ public abstract class RecentsView<
 
         mCurrentGestureEndTarget = null;
 
-        if (mEnableOverlap) {
+        if (mEnableOverlap && mEnableDrawingLiveTile) {
             switchToScreenshot(
                 () -> finishRecentsAnimation(true /* toRecents */, false /* shouldPip */,
                         null));
