@@ -41,4 +41,8 @@
 
     <!-- Meminfo in overview -->
     <dimen name="meminfo_claimed_height">16dp</dimen>
+
+    <!-- Custom icon -->
+    <dimen name="icon_picker_cell_size">56dp</dimen>
+    <dimen name="icon_picker_cell_padding">8dp</dimen>
 </resources>
