@@ -121,6 +121,7 @@ public class SettingsActivity extends FragmentActivity
         }
     }
 
+
     private boolean startPreference(String fragment, Bundle args, String key) {
         if (getSupportFragmentManager().isStateSaved()) {
             // Sometimes onClick can come after onPause because of being posted on the handler.
@@ -236,6 +237,7 @@ public class SettingsActivity extends FragmentActivity
             }
         }
 
+
         private boolean isKeyInPreferenceGroup(String targetKey, PreferenceGroup parent) {
             for (int i = 0; i < parent.getPreferenceCount(); i++) {
                 Preference pref = parent.getPreference(i);
@@ -300,7 +302,11 @@ public class SettingsActivity extends FragmentActivity
          */
         protected boolean initPreference(Preference preference) {
             LauncherDisplayInfo info = DisplayController.INSTANCE.get(getContext()).getInfo();
-            switch (preference.getKey()) {
+            String key = preference.getKey();
+            if (key == null) {
+                return true;
+            }
+            switch (key) {
                 case NOTIFICATION_DOTS_PREFERENCE_KEY:
                     return BuildConfig.NOTIFICATION_DOTS_ENABLED;
                 case DEVELOPER_OPTIONS_KEY:
