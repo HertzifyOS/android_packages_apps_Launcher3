@@ -301,6 +301,7 @@ constructor(@ApplicationContext private val encryptedContext: Context) {
         @JvmField val SHORT_PARALLAX = backedUpItem("pref_short_parallax", false)
         @JvmField val SINGLE_PAGE_CENTER = backedUpItem("pref_single_page_center", false)
         @JvmField val DRAWER_SCROLLBAR = backedUpItem("pref_drawer_scrollbar", true)
+        @JvmField val SHOW_SMARTSPACE = backedUpItem("pref_show_smartspace", true)
         @JvmField
         val WORKSPACE_SIZE =
             backedUpItem(DeviceGridState.KEY_WORKSPACE_SIZE, "", EncryptionType.ENCRYPTED)
