@@ -111,7 +111,8 @@ public class SettingsHomescreen extends CollapsingToolbarBaseActivity
         if (LauncherPrefs.SHOW_HOTSEAT_BG.getSharedPrefKey().equals(key) ||
                 LauncherPrefs.HOTSEAT_OPACITY.getSharedPrefKey().equals(key) ||
                 LauncherPrefs.SHORT_PARALLAX.getSharedPrefKey().equals(key) ||
-                LauncherPrefs.SINGLE_PAGE_CENTER.getSharedPrefKey().equals(key)) {
+                LauncherPrefs.SINGLE_PAGE_CENTER.getSharedPrefKey().equals(key) ||
+                LauncherPrefs.SHOW_SMARTSPACE.getSharedPrefKey().equals(key)) {
             LauncherAppState.INSTANCE.executeIfCreated(app -> app.setNeedsRestart());
         }
     }

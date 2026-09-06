@@ -978,4 +978,9 @@ public final class Utilities {
     public static boolean isWorkspaceEditAllowed(Context context) {
         return !LauncherPrefs.WORKSPACE_LOCK.get(context);
     }
+
+    public static boolean showSmartspace(Context context) {
+        return LauncherPrefs.SHOW_SMARTSPACE.get(context);
+    }
+
 }
